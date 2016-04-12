@@ -1,8 +1,8 @@
 {
   "name": "test-dist-es6-5",
-  "version": "0.1.2",
+  "version": "2.0.0",
   "scripts": {
-    "prepublish": "dist-es6"
+    "prepublish": "ls . && dist-es6"
   },
   "devDependencies": {
     "dist-es6": "^0.1.14"
